@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  margin: auto;
+}
+
+#header ul {
+  list-style: none;
+}
+
+#header li {
+  display: inline;
+  padding: 20px;
+}
+
+#header a {
+  color: rgb(105, 105, 105);
+  text-decoration: none;
+  font-size: 14pt;
+}
+#header a:hover {
+  border: 2pt solid rgb(30, 255, 0);
+  border-radius: .25rem;
+  padding: 3px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgb(65, 65, 65), rgb(23, 23, 23));
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 7px 5px 5px rgb(81, 81, 81);
+  width: 80%;
+  margin: auto;
+  padding-bottom: 50pt;
+}
+
+#container h1 {
+  color: rgb(30, 255, 0);
+  font-family: 'Orbitron', sans-serif;
+}
+
+#container #player-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container ul {
+  font-size: 14pt;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#container li {
+  padding: 13px;
+  list-style: none;
+}
+
+#container li a:hover {
+  color:rgb(255, 183, 0);
+}
+
+#container a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/******* Player Profile **************************************/
+#container #player-specs {
+  padding: 20px;
+}
+
+#container #team {
+  font-size: 20pt;
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(30, 255, 0);
+}
+
+#player-specs li {
+  border: 2pt solid rgb(255, 255, 255);
+  display: inline;
+}
+
+#player-specs li a:hover {
+  color:rgb(255, 183, 0);
+}
+
+#bio {
+  margin-bottom: 20px;
+}
+
+form {
+  border-radius: .25rem;
+}
+
+form #delete {
+  background-color:rgb(0, 73, 0);
+  width: 180px;
+}
+
+/****** Player Create ******************************/
+#player-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+}
+
+#player-form > * {
+  margin: .25rem;
+}
+
+button {
+  background-color: rgb(0, 73, 0);
+  margin-top: 10px;
+  border: 2pt solid rgb(15, 133, 0);
+  border-radius: .25rem;
+  color: white;
+  height: 30px;
+  width: 200px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: green;
+  border: 2pt solid rgb(24, 207, 0);
+  color: white;
+}
+
+
+
+
+
